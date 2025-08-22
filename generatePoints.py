@@ -41,7 +41,7 @@ try:
         print(f"geotiff width: {src.width}")
         print(f"geotiff height: {src.height}")
         print(f"geotiff bounds : {src.bounds}")
-        df = generate_random_points_df(number_of_points, src.bounds.left, src.bounds.right, src.bouns.bottom, src.bounds.top, coords_csv_path)
+        df = generate_random_points_df(number_of_points, src.bounds.left, src.bounds.right, src.bounds.bottom, src.bounds.top, coords_csv_path)
         print(f"generated {number_of_points} points in file '{coords_csv_path}', df.describe:\n{df.describe()}")
 except FileNotFoundError:
     print(f"Error: The file was not found at {geotiff_path}")

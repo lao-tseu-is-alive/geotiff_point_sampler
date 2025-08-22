@@ -11,7 +11,7 @@ A fast and efficient Python command-line tool to extract altitude values from a 
 
 ## Requirements
 
-* Python 3.13+
+* Python 3.8+
 * [`uv`](https://docs.astral.sh/uv/) An extremely fast Python package and project manager, written in Rust.
 * Dependencies listed in `pyproject.toml` (`rasterio`, `pandas`)
 
