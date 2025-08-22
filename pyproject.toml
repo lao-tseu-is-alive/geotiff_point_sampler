@@ -1,0 +1,12 @@
+[project]
+name = "geotiff_point_sampler"
+version = "0.1.0"
+description = "A fast and efficient Python command-line tool to extract altitude (or other raster values) from a GeoTIFF file for a large number of point coordinates. It uses the highly optimized rasterio and pandas libraries for high performance."
+requires-python = ">=3.13"
+dependencies = [
+    "gdal==3.8.4",
+    "numpy==2.3.2",
+    "pandas==2.3.2",
+    "pandas-stubs==2.3.0.250703",
+    "rasterio==1.4.3",
+]
